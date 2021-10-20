@@ -1,5 +1,5 @@
 export const my_is_posi_neg = (nbr) => {
-    if (nbr == undefined || nbr == null || nbr > 0)
+    if (typeof nbr == undefined || typeof nbr == null || nbr > 0)
     {
         console.log("POSITIF")
     }

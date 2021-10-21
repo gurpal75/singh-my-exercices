@@ -1,9 +1,6 @@
-export const my_sum = (a,b) => {
+export const my_sum = (a, b) => {
     if (typeof a != "number" || typeof b != "number")
-    {
-    	return 0;
-    }
-	else {
-		return a+b;
-	}
+        return 0;
+    
+    return a + b;
 }
